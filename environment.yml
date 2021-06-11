@@ -1,0 +1,13 @@
+name: gubaphage-magsearch
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.8
+  - snakemake=6.4.1
+  - pandas>=1.2.4
+  - seaborn=0.11.0
+  - jupyterlab
+  - tqdm
+  - screed
